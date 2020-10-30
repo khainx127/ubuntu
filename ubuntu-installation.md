@@ -97,3 +97,8 @@ Fix error The configured user limit (128) on the number of inotify instances has
 echo fs.inotify.max_user_instances=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 ```
+
+Install gnome secret lib
+```
+sudo apt install gnome-keyring
+```
